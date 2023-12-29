@@ -12,17 +12,15 @@ span{
 }
 #banner{
 	height:100vh;
-	width:100%;
-	background-image:url(../images/hero-bg.jpg);
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/hero-bg.jpg);
 	background-attachment:fixed;
 	background-size:cover;
 	
 }
 .container{
 	color:#fff;
-	height:100vh;
-	width:100%;
-	background-color:rgba(0,0,0,0.5);
+	width:90%;
+	margin:auto;
 }
 .banner-row{
 	display:flex;
@@ -49,7 +47,7 @@ p{
 }
 .box{
 	text-align:center;
-	padding-top:30px;
+	padding-top:60px;
 	display:flex;
 	flex-wrap:wrap;
 	justify-content:space-evenly;
@@ -59,4 +57,10 @@ p{
 	padding:25px;
 	border:1px solid #fff;
 	margin-right:20px;
+}
+.content-2:hover{
+	border-color:#e3a302;
+}
+.banner-icon{
+	padding-bottom:18px;
 }
